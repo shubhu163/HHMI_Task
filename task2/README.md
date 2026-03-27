@@ -1,4 +1,4 @@
-# AI Engineer - Microscopy Image Analysis (MIA-AI)
+# Microscopy Image Analysis 
 
 This repository contains the implementation for the HHMI take-home challenge using OpenOrganelle EM data and DINOv3.
 
