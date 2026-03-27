@@ -1,0 +1,8 @@
+numpy
+zarr<3
+fsspec[s3]
+torch
+timm
+torchmetrics
+scipy
+matplotlib

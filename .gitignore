@@ -1,0 +1,19 @@
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+.conda/
+
+# Task 2 large generated datasets and embeddings
+task2/data/subset/
+task2/data/embeddings/
+task2/data/dense_embeddings/
+
+# Optional heavy model files/checkpoints
+task2/weights/
+*.pth
+*.pt
+task2/dinov3/
