@@ -364,6 +364,5 @@ In our current run configuration, we download `24` slices per dataset (`--num-sl
 
 
 ## AI Assistance Disclosure
+Codex was used to accelerate implementation, including drafting portions of the code, script editing, debugging support, and README organization. The overall approach, dataset selection, experimental decisions, and final validation of the submission were completed by me.
 
-- Codex (AI assistant) was used for code generation, script editing, debugging support, and README organization.
-- The core project direction, task planning, dataset-selection intent, and experimental decisions were defined by me.
