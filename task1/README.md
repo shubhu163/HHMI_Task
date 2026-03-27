@@ -1,5 +1,5 @@
 
-## Code Review Assessment: `trainer.py` for Scalable, Reproducible Research
+## Reviewing `trainer.py` for Scalable, Reproducible Research
 
 The current `trainer.py` works well as an initial proof-of-concept because it provides a simple end-to-end workflow for loading data, tokenizing sequences, training the model, evaluating performance, and saving results. This is useful in the early stage of a project because it makes the execution flow easy to follow and helps quickly verify that the approach runs correctly. One good practice that should be preserved is that normalization statistics are computed on the training split and then applied to held-out data rather than recomputed separately.
 
