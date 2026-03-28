@@ -226,7 +226,8 @@ Current visualization outputs:
 - cross-dataset top-k (all non-query datasets combined)
 - cross-dataset bottom-k (all non-query datasets combined)
 - per-dataset cross comparison panels (e.g., query `jrc_hela-3` vs `jrc_hela-2`, and vs `jrc_jurkat-1`)
-- all figures are exported as PDF (no PNG)
+
+Each panel shows a cropped EM region, and the queried/retrieved mitochondrion is highlighted in red; the score corresponds to that highlighted object.
 
 Example:
 
