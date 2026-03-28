@@ -8,7 +8,7 @@ We downloaded three datasets from OpenOrganelle: `jrc_hela-2`, `jrc_hela-3`, and
 
 Retrieval was analyzed in two rounds. Round 1 used query `jrc_hela-2:z00967:r0` against `jrc_hela-2` and `jrc_jurkat-1`; within-dataset retrieval was stronger than cross-dataset (`top1 0.946 vs 0.856`, `mean@10 0.932 vs 0.848`). Round 2 used query `jrc_hela-3:z00128:r0` against `jrc_hela-3`, `jrc_hela-2`, and `jrc_jurkat-1`; again within-dataset was strongest (`top1 0.946`, `mean@10 0.917`), and cross-dataset results showed clear same-lineage advantage: `jrc_hela-2` outperformed `jrc_jurkat-1` (`top1 0.880 vs 0.832`, `mean@10 0.865 vs 0.822`). Qualitatively, top-ranked panels preserve mitochondrial shape and internal texture better than bottom-ranked panels.
 
-### Key Figures (Embedded)
+### Key Figures 
 
 Round 1: Query `jrc_hela-2:z00967:r0`
 
@@ -50,7 +50,7 @@ Dependencies:
 - scipy
 - matplotlib
 
-## Task 1 - Data Acquisition (Programmatic)
+## Task 1 - Data Acquisition 
 
 Implemented with:
 - `scripts/download_zarr_subset.py`
